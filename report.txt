@@ -1,0 +1,30 @@
+Q1
+
+I model each state in game.py as class Game.
+After that I write class named search tree.
+This tree of the all state.
+However tree expand if it need. I use lazy loading.
+
+Q2.
+
+In this part I use iterative BFS algorthm.
+I write class for it that I inheret from searchtree class.
+
+Q3.
+
+In last part I implement AStar algorthm.
+I write class for it and This class is inhered from IBFS.
+I use same algorthm before but this time,
+it only discover path advised from heuristic and cost function.
+Thus, there is huge difference between running time.
+
+For 3 lamb and wolf:
+IBFS algorthm's running time is 0.010346
+AStar algorthm's running time is 0.000975
+
+For 15 lamb and wolf:
+IBFS algorthm's running time is 7.889210
+A* algorthm's running time is 0.031287
+
+
+This result show that A* with using heuristic performans better then IBFS.
